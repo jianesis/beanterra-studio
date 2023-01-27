@@ -37,7 +37,7 @@ export default function Services() {
       />
       <div className="flex flex-row justify-around w-full flex-wrap">
         {services.map((item, index) => (
-          <div className={styles.card}>
+          <div className={styles.card} key={index}>
             <div className={styles.innerCard}>
               <Image src={item.image} width={50} height={50} alt="sc" />
               <span className="text-white text-lg md:text-2xl text-start ml-8">
