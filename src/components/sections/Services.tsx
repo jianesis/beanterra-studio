@@ -25,21 +25,22 @@ export default function Services() {
         height="0"
         width="0"
         sizes="100vw"
-        style={{
-          position: "absolute",
-          top: "-150px",
-          left: "0",
-          height: "auto",
-          width: "100%",
-          zIndex: "1",
-        }}
+        // style={{
+        //   position: "absolute",
+        //   top: "-150px",
+        //   left: "0",
+        //   height: "auto",
+        //   width: "100%",
+        //   zIndex: "1",
+        // }}
+        className={styles.bgImage}
       />
       <div className="flex flex-row justify-around w-full flex-wrap">
         {services.map((item, index) => (
           <div className={styles.card}>
             <div className={styles.innerCard}>
               <Image src={item.image} width={50} height={50} alt="sc" />
-              <span className="text-white text-2xl text-start ml-8">
+              <span className="text-white text-lg md:text-2xl text-start ml-8">
                 {item.point}
               </span>
             </div>

@@ -6,8 +6,7 @@ import Services from "@/components/sections/Services";
 import Professional from "@/components/sections/Professionals";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
-import Image from "next/image";
-import styles from "./page.module.css";
+import Nav from "@/components/sections/Nav";
 
 const quickSand = Quicksand({
   weight: ["400", "500", "600", "700"],
@@ -17,21 +16,7 @@ const quickSand = Quicksand({
 export default function Home() {
   return (
     <main className={`${quickSand.className}`}>
-      <div className={styles.logo}>
-        <Image
-          src="/beanterra-logo.png"
-          alt="logo"
-          height={0}
-          width={0}
-          sizes="80vw"
-          style={{
-            margin: "3rem auto",
-            height: "auto",
-            width: "300px",
-          }}
-        />
-      </div>
-
+      <Nav />
       <Banner />
       <WhyUs />
       <Project />

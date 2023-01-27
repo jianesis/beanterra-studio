@@ -28,3 +28,17 @@
   padding: 2rem;
   z-index: 1;
 }
+
+.bgImage {
+  position: absolute;
+  top: -150px;
+  left: 0;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+
+  @media screen and (max-width: 767px) {
+    top: 100px;
+    height: 100%;
+  }
+}

@@ -38,6 +38,11 @@
     color: #FFFFFF;
     background-color: transparent;
     margin-bottom: 1rem;
+
+    @media screen and (max-width: 767px) {
+      font-size: 1.2rem;
+      font-height: 1.5rem;
+    }
  }
 
  .required{
@@ -56,6 +61,7 @@
 
   @media screen and (max-width: 767px) {
     width: 100%;
+    font-size: 1.1rem;
   }
 }
 

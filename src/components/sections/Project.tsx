@@ -54,11 +54,11 @@ export default function Project() {
         </div>
         <Image
           src="/projects/ttt.png"
-          width={400}
-          height={400}
+          width={390}
+          height={390}
           alt="project"
           style={{
-            maxHeight: "400px",
+            maxHeight: "390px",
           }}
         />
       </div>
