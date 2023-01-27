@@ -1,0 +1,30 @@
+.card{
+  display: flex;
+  border-image-source:  linear-gradient(98.98deg, rgba(89, 183, 174, 0.35) -3.53%, rgba(23, 193, 232, 0.1) 102.24%);
+  border-radius: 20px;
+  background: linear-gradient(98.98deg, rgba(89, 183, 174, 0.35) -3.53%, rgba(23, 193, 232, 0.1) 102.24%),
+              linear-gradient(0deg, #161A18, #161A18);
+  box-sizing: border-box;
+
+  /* change responsive */
+  width: 394px;
+  height: 126px;
+  z-index: 1;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.innerCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: calc(100% - 3px);
+  height: calc(100% - 3px);
+  border-radius: 20px;
+  padding: 2rem;
+  z-index: 1;
+}

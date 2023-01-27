@@ -1,0 +1,15 @@
+.footerText{
+  background: radial-gradient(50% 50% at 50% 50%, #77D8A8 0%, #23C3E8 100%);
+  box-shadow: 0px 4px 4px 0px #0000004D;
+  font-family: 'Quicksand';
+  font-size: 2rem;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  background: radial-gradient(50% 50% at 50% 50%, #77D8A8 0%, #23C3E8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  margin: 0;
+}

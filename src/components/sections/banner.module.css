@@ -1,0 +1,42 @@
+.mainText {
+  font-size: 5.3rem;
+  line-height: 6.75rem;
+
+  letter-spacing: 0.15em;
+
+  background: radial-gradient(50% 50% at 50% 50%, #77D8A8 0%, #23C3E8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+
+  @media screen and (max-width: 768px) {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+}
+
+.paragraphText {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 160%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.75);
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.1rem;
+  }
+}
+
+.bannerContainer {
+  height: 75vh;
+  min-height: 700px;
+
+
+  @media screen and (max-width: 768px) {
+    height: 50vh;
+    min-height: 400px;
+  }
+}
